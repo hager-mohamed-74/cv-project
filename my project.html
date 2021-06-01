@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+                 * {
+                  box-sizing: border-box;
+                  }
+
+        
+           body {
+              margin: 0;
+              background-color: white;
+            }
+            .all{
+                float: right;
+                padding:1px 16px;
+                height:1200px;
+                width: 75%;
+
+            }
+            .mail{
+                text-decoration: none;
+            }
+            .img{
+                border-radius: 180px;
+                
+            }
+            .img2{
+                border-radius: 180px;
+                width: 70px;
+                height: 70px;
+            }
+            .div-ul{
+                float: left;
+                width: 25%;
+ background-color:rgb(202, 166, 226);
+ height:1200px;
+
+            }
+           
+            
+            .li a {
+              display: block;
+              color: #000;
+              padding: 8px 16px;
+              text-decoration: none;
+            }
+            
+            .li a.active {
+              background-color:rgb(202, 166, 226);
+              color:black;
+            }
+            
+            .li a:hover:not(.active) {
+              background-color:rgb(175, 144, 196);
+              color:white;
+            }
+            
+            .h1{
+               color: rgb(0, 0, 0);
+                border-radius: 180px;
+                text-align: center;
+               
+
+            }
+            .home{
+               
+                width: 60%;
+                height: 30%;
+                font-size: 20px;
+                font-style:italic;
+                border-radius:100px;
+                text-indent: 15px;
+                
+            }
+            h3{
+                text-shadow: 2px 2px 5px rgb(180, 32, 106);
+            }
+            @media screen  and (max-width:600px) {
+                .all,.div-ul{
+                    width: 100%;
+                    float: none;
+                    height: auto;
+                }
+            }
+a:link, a:visited {
+   background-color:rgb(202, 166, 226);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(175, 144, 196);
+}
+</style>
+           
+            
+            </head>
+            <body>
+            <div class="div-ul">
+                <img class="img" src="hager2.jpeg" width="300px"height="300px">
+<br>
+
+                 <a class="active" href="#home">About</a><br>
+                <a href="#Skills">Technical Skills</a><br>
+                 <a href="#Education">Education</a><br>
+                <a href="#Jop">Jop</a><br>
+                  <a href="#Contact">Contact</a><br>
+                
+            </div>
+                <div class="all" >
+                    <h1 class="h1">CV</h1>
+                    <br>
+                    
+                   
+                        <h3 id="home">About</h3>
+                        <p>  Name: Hager Mohamed</p>
+                        <p>Lives in Aghour Alkobra ,Toukh,Al Qalyubiyah,Egypt</p>
+<br>
+<br>
+<br>
+                   
+                        <h3 id="Skills">Technical Skills</h3>
+                        <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>c language</li>
+                        </ul>      
+                  
+                     <br>
+<br>
+<br>
+                 
+                        <h3 id="Education">Education</h3>
+                        <p> Went to Aghour Alkobra Secondary Schoo</p>
+                        <p>Studies now at shobra faculty of ingneering.</p>
+                        <p>Studies at electronics and communication engineering department.</p>
+    <br>
+<br>
+<br>
+                   
+                        <h3 id="Jop">Jop</h3>
+                        <ul>
+                        <li>Manager at Oriflame </li>
+                        <li>Web Developer‎ at ‏‎IEEE Benha University SB‎‏</li>
+                        </ul>
+                   <br>
+<br>
+<br>
+                        <h3 id="Contact">contact</h3>
+                        <ul>
+                            <li>Phone Number: 01555999851</li>
+                            <li>Adress: Aghour Alkobra ,Toukh,Al Qalyubiyah,Egypt</li>
+                            <a style="background-color:white;" href="https://www.facebook.com/profile.php?id=100041319121233"><img class="img2" src="img.png"></a>
+                            <a  style="background-color:white;" class="mail" href =" mailto:hhhagermohamed123@gmail.com"><img class="img2" src="img2.jpg">Send Email</a>
+                        </ul>      
+                 <br>
+<br>
+<br>
+                  
+                 
+                 
+                </div>
+    </body>   
+    </html>
